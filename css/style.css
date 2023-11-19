@@ -220,6 +220,8 @@ body {
 }
 
 .xona-select {
+  width: 100%;
+  max-width: 100px;
   display: block;
   background-color: transparent;
   border: 2px solid #fff;
@@ -227,7 +229,7 @@ body {
   font-weight: 700;
   border-radius: 10px;
   font-size: 12px;
-  padding: 4px;
+  padding: 5px 10px;
 }
 
 .label-text {
