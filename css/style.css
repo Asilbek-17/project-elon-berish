@@ -22,7 +22,7 @@ body {
   position: absolute;
   z-index: 999;
   top: 80px;
-  left: calc(50% - 125px);
+  left: calc(50% - 111px);
 }
 
 .wrapper {
