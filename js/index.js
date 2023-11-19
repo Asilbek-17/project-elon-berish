@@ -31,3 +31,10 @@ elSelection.addEventListener("change", () => {
     elWrapper.appendChild(elBox2)
     elBox2.style.display = 'block'
 })
+
+
+elBackTo3.addEventListener("click", ()=> {
+    elWrapper.innerHTML = ''
+    elWrapper.appendChild(elBox)
+    elBox.style.display = 'flex'
+})
