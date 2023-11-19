@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  
+}
+
+.title {
+  font-size: 35px;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  z-index: 999;
+  top: 80px;
+  left: calc(50% - 125px);
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  background-image: url("../images/top-bg.svg"), url('../images/bottom-bg.svg');
+  background-repeat: no-repeat;
+  background-position: calc(200px) calc(-50px), calc(0px) calc(400px);
+  background-color: #06859c;
+}
+
+.add-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.add-box-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.add-box-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.btn-1 {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 20px;
+  border: none;
+  background: transparent;
+  border-radius: 10px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 700;
+}
+
+.btn-2 {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px 20px;
+  border: none;
+  background: transparent;
+  border-radius: 10px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 700;
+}
+
+
+.hudud {
+  width: 100%;
+  max-width: 250px;
+  padding: 10px 20px;
+  border: none;
+  background-color: transparent;
+  border-radius: 10px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 700;
+}
+
+.box {
+  display: none;
+}
+
+.box-2 {
+  display: none;
+}
+
+
+.back-to {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: transparent;
+  border: none;
+  background-image: url('../images/arrow-turn-down-left.svg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 25px;
+  padding-bottom: 2px;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.back-to-2 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: transparent;
+  border: none;
+  background-image: url('../images/arrow-turn-down-left.svg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 25px;
+  padding-bottom: 2px;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.back-to-3 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: transparent;
+  border: none;
+  background-image: url('../images/arrow-turn-down-left.svg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 25px;
+  padding-bottom: 2px;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.back-to-4 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  background-color: transparent;
+  border: none;
+  background-image: url('../images/arrow-turn-down-left.svg');
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 25px;
+  padding-bottom: 2px;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.box {
+  justify-content: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-area {
+  width: 100%;
+  max-width: 250px;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  border: 2px solid #fff;
+  font-weight: 400;
+  font-size: 12px;
+  resize: none;
+  margin-bottom: 5px;
+}
+
+.text-area::placeholder {
+  font-weight: 300;
+  color: #fff;
+  opacity: .7;
+}
+
+.form-box {
+  width: 250px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+
+.xona-select {
+  display: block;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+  font-size: 12px;
+  padding: 4px;
+}
+
+.label-text {
+  font-size: 15px;
+  margin: 0;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.input-tel {
+  width: 100%;
+  max-width: 250px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.input-tel::placeholder {
+  font-weight: 300;
+  color: #fff;
+  opacity: .7;
+}
+
+.price-inp{
+  width: 100%;
+  max-width: 110px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: 10px;
+}
+
+.price-inp::placeholder {
+  font-size: 12px;
+  font-weight: 300;
+  color: #fff;
+  opacity: .7;
+}
