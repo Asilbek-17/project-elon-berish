@@ -36,15 +36,15 @@
   <div class="box-2">
     <button class="back-to-3">Orqaga</button>
     <form class="form-elon" action="">
-      <textarea class="text-area" cols="30" rows="5" placeholder="Joy haqida to'liq ma'lumot va manzilni to'liq kiriting..."></textarea>
-      <input class="price-inp" type="tel" placeholder="Narxni kiritng..." minlength="1" maxlength="10">
-      <input class="input-tel" type="tel" placeholder="Telefon raqamni kiriting..." minlength="2" maxlength="25">
+      <textarea class="text-area" cols="30" rows="5" placeholder="Joy haqida to'liq ma'lumot va manzilni to'liq kiriting..." minlength="2" maxlength="200" oninvalid="setCustomValidity('Ma`lumot to`liq emas')"  required></textarea>
+      <input class="price-inp" type="tel" placeholder="Narxni kiritng masalan: 330" minlength="1" maxlength="10" oninvalid="setCustomValidity('Ma`lumot to`liq emas')" required>
+      <input class="input-tel" type="tel" placeholder="Telefon raqamni kiriting..." minlength="2" maxlength="25" oninvalid="setCustomValidity('Ma`lumot to`liq emas')" required>
       <button class="form-btn" type="button">Tekshirish</button>
       <div class="form-box-2">
         <h3 class="info-title">Ma'lumotlar To'g'rimi</h3>
-        <p class="info-text js-info"></p>
         <p class="info-text js-price"></p>
         <p class="info-text js-tel"></p>
+        <p class="info-text js-info"></p>
         <button class="form-btn-2">Jo'natish</button>
       </div>
     </form>
