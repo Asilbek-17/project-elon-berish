@@ -38,3 +38,24 @@ elBackTo3.addEventListener("click", ()=> {
     elWrapper.appendChild(elBox)
     elBox.style.display = 'flex'
 })
+
+// /////////////////////////////////////////////
+
+const elInfoText = document.querySelector(".js-info");
+const elRoomText = document.querySelector(".js-room");
+const elPriceText = document.querySelector(".js-price");
+const elTelText = document.querySelector(".js-tel");
+const elForm = document.querySelector(".form-elon");
+const elFormBtn = document.querySelector(".form-btn");
+const elTextArea = document.querySelector(".text-area");
+const elSelect = document.querySelector(".xona-select");
+const elPriceInp = document.querySelector(".price-inp");
+const elTelInp =document.querySelector(".input-tel");
+const elFormBox = document.querySelector(".form-box-2")
+elFormBtn.addEventListener("click", () => {
+   elInfoText.innerHTML = elTextArea.value;
+   elRoomText.innerHTML = "Honalar soni : " + elSelect.value;
+   elPriceText.innerHTML = "Narxi : " + elPriceInp.value;
+   elTelText.innerHTML = "Telefon raqamingiz : " +  elTelInp.value;
+   elFormBox.style.display = "block"
+})

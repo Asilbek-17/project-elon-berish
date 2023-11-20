@@ -201,7 +201,7 @@ body {
   color: #fff;
   border: 2px solid #fff;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   resize: none;
   margin-bottom: 5px;
 }
@@ -263,13 +263,69 @@ body {
   border: 2px solid #fff;
   color: #fff;
   border-radius: 10px;
-  padding: 5px 10px;
+  padding: 6px 10px;
   margin-left: 10px;
+  font-size: 14px;
 }
 
 .price-inp::placeholder {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 300;
   color: #fff;
   opacity: .7;
+}
+
+.form-btn {
+  display: block;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: auto;
+}
+
+.form-btn-2 {
+  display: block;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  margin-left: auto;
+}
+
+.form-btn:active {
+  background-color: #fff;
+  color: #000;
+}
+
+.form-box-2 {
+  display: none;
+  width: 250px;
+  color: #fff;
+}
+
+.info-title {
+  text-align: center;
+  color: #fff;
+}
+
+.info-text {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.js-info {
+  width: 250px;
+  height: 100px;
+  overflow: scroll;
+}
+
+.form-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }

@@ -35,7 +35,7 @@
 
   <div class="box-2">
     <button class="back-to-3">Orqaga</button>
-    <form action="">
+    <form class="form-elon" action="">
       <textarea class="text-area" cols="30" rows="5" placeholder="Joy haqida to'liq ma'lumot va manzilni to'liq kiriting..."></textarea>
       <div class="form-box">
         <label>
@@ -48,9 +48,20 @@
             <option value="5">5</option>
           </select>
         </label>
-        <input class="price-inp" type="number" placeholder="Narxni kiritng...">
+        <input class="price-inp" type="tel" placeholder="Narxni kiritng..." minlength="1" maxlength="10">
       </div>
-      <input class="input-tel" type="tel" placeholder="Telefon raqamni kiriting...">
+      <input class="input-tel" type="tel" placeholder="Telefon raqamni kiriting..." minlength="2" maxlength="25">
+      <button class="form-btn" type="button">Tekshirish</button>
+      <div class="form-box-2">
+        <h3 class="info-title">Ma'lumotlar To'g'rimi</h3>
+        <p class="info-text js-info"></p>
+        <div class="form-info">
+          <p class="info-text js-room"></p>
+          <p class="info-text js-price"></p>
+        </div>
+        <p class="info-text js-tel"></p>
+        <button class="form-btn-2">Jo'natish</button>
+      </div>
     </form>
   </div>
   
