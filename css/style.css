@@ -80,7 +80,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 5);
-  
+
 }
 
 .btn-2 {
@@ -259,7 +259,6 @@ body {
   max-width: 250px;
   background-color: transparent;
   border: 1px solid #fff;
-  
   color: #fff;
   border-radius: 10px;
   padding: 5px 10px;
@@ -274,19 +273,15 @@ body {
 
 .price-inp{
   width: 100%;
-  max-width: 110px;
+  max-width: 250px;
   background-color: transparent;
   border: 1px solid #fff;
-  
   color: #fff;
   border-radius: 10px;
-  padding: 6px 10px;
-  margin-left: 10px;
-  font-size: 14px;
+  padding: 5px 10px;
 }
 
 .price-inp::placeholder {
-  font-size: 13px;
   font-weight: 300;
   color: #fff;
   opacity: .7;
@@ -296,7 +291,6 @@ body {
   display: block;
   background-color: transparent;
   border: 1px solid #fff;
-  
   color: #fff;
   margin-top: 10px;
   border-radius: 10px;
@@ -308,7 +302,6 @@ body {
   display: block;
   background-color: transparent;
   border: 1px solid #fff;
-  
   color: #fff;
   margin-top: 10px;
   border-radius: 10px;
@@ -350,11 +343,10 @@ body {
 }
 
 .form-elon {
+  width: 300px;
   border: 1px solid #fff;
-  
   padding: 20px;
   background: rgba(255, 255, 255, 0.1);
-  
   backdrop-filter: blur(10px);
   box-shadow: 0px 0px 16px 0px rgba(255, 255, 255, 5);
   border-radius: 10px;
