@@ -3,6 +3,10 @@
   box-sizing: border-box;
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -282,6 +286,19 @@ background: linear-gradient(180deg, rgba(1,0,14,1) 0%, rgba(9,9,140,1) 52%, rgba
   color: #fff;
   border-radius: 10px;
   padding: 5px 10px;
+}
+
+.form-select{
+  width: 100%;
+  max-width: 250px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 10px;
+  padding: 2px 10px;
+  margin-top: 10px;
+  font-weight: 300;
+  opacity: .7;
 }
 
 .price-inp::placeholder {
