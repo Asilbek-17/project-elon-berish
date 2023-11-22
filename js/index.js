@@ -8,30 +8,27 @@ const elBackTo2 = document.querySelector(".back-to-2");
 const elBackTo3 = document.querySelector(".back-to-3");
 const elTitle = document.querySelector('.title')
 
+elSelection.addEventListener("change", () => {
+    elWrapper.innerHTML = '';
+    elBox.style.display = 'flex'
+    elWrapper.appendChild(elBox)
+})
 
 elButtons.forEach(btn => {
     btn.addEventListener('click', ()=> {
         elWrapper.innerHTML = ''
-        elWrapper.appendChild(elBox)
-        elBox.style.display = 'flex'
+        elWrapper.appendChild(elBox2)
+        elBox2.style.display = 'flex'
     })
 })
 
 elBackTo2.addEventListener("click", ()=> {
     elWrapper.innerHTML = ''
-    elButtons.forEach(btn => {
-        elWrapper.appendChild(btn)
-    })
+    elWrapper.innerHTML = ''
+    elBox.style.display = 'none'
+    elWrapper.appendChild(elSelection)
     elWrapper.appendChild(elTitle)
 })
-
-
-elSelection.addEventListener("change", () => {
-    elWrapper.innerHTML = ''
-    elWrapper.appendChild(elBox2)
-    elBox2.style.display = 'block'
-})
-
 
 elBackTo3.addEventListener("click", ()=> {
     elWrapper.innerHTML = ''
